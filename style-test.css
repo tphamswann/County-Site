@@ -1,0 +1,153 @@
+*{
+    margin:0%;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .image-container{
+        background-image: url(/Users/typham-swann/Desktop/UI:UX/Responsive_Redesign/images/banner.jpg);
+        height: 27%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        max-height: 15rem;
+    }
+  }
+
+
+
+
+.inner-container{
+    text-align: center;
+    background-position: center;
+    width: 100vw;
+    color: #a9c25d;
+    height: auto;
+    padding-top: 4.8rem;
+    filter: saturate(1)
+}
+
+
+h1{
+    font-weight: bold;
+    font-family: 'Lora';
+    font-size: 6vw;
+}
+
+.admin{
+    border: 0px solid black;
+
+  }
+
+  .links-header{
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+    height: 12vh;
+    max-height: 6vw;
+  }
+
+  .info{
+    padding-left: 6vw;
+  }
+
+
+  h2{
+    font-family: 'Lora';
+    font-size: 4vw;
+    color: #39395f;
+  }
+
+  h3{
+    font-family: 'Lora';
+    font-size: 2.5vw;
+    color: #39395f;
+  }
+
+  .info-img{
+    width:3vw;
+    height:3vw;
+    float:left;
+    margin-right: 0.5vh;
+  }
+
+  .resources{
+    border: 3px solid black;
+  }
+
+  .admin-icons{
+    position: relative;
+    display: flex;
+    border: 3px solid black;
+  }
+
+@media only screen and (max-width: 850px) {
+    h1{
+        font-weight: bold;
+        font-family: 'Lora';
+        font-size: 8vw;
+    }
+
+    h2{
+        font-family: 'Lora';
+        font-size: 5.5vw;
+        color: #39395f;
+      }
+    
+      h3{
+        font-family: 'Lora';
+        font-size: 4vw;
+        color: #39395f;
+      }
+
+      .info-img{
+        width:4.8vw;
+        height:4.8vw;
+        float:left;
+        margin-right: 0.5vh;
+      }
+
+      .info{
+        padding-left: 6vw;
+        padding-top: 2vw;
+      }
+
+  }
+
+
+
+
+@media only screen and (max-width: 415px) {
+    h1{
+        font-weight: bold;
+        font-family: 'Lora';
+        font-size: 9.5vw;
+    }
+
+    h2{
+        font-family: 'Lora';
+        font-size: 5.5vw;
+        color: #39395f;
+      }
+    
+      h3{
+        font-family: 'Lora';
+        font-size: 4.5vw;
+        color: #39395f;
+      }
+
+      .info-img{
+        width:5.4vw;
+        height:5.4vw;
+        float:left;
+        margin-right: 0.5vh;
+      }
+
+      .info{
+        padding-left: 6vw;
+        padding-top: 2vw;
+      }
+
+  }
